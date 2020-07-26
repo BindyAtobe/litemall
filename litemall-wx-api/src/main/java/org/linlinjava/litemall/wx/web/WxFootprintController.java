@@ -31,6 +31,7 @@ public class WxFootprintController {
 
     @Autowired
     private LitemallFootprintService footprintService;
+
     @Autowired
     private LitemallGoodsService goodsService;
 
@@ -70,7 +71,7 @@ public class WxFootprintController {
     /**
      * 用户足迹列表
      *
-     * @param page 分页页数
+     * @param page  分页页数
      * @param limit 分页大小
      * @return 用户足迹列表
      */

@@ -89,7 +89,8 @@ public class AdminOrderController {
     @RequiresPermissionsDesc(menu = {"商场管理", "订单管理"}, button = "订单退款")
     @PostMapping("/refund")
     public Object refund(@RequestBody String body) {
-        return adminOrderService.refund(body);
+//        return adminOrderService.refund(body);
+        return null;
     }
 
     /**
